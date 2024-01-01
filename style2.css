@@ -1,0 +1,68 @@
+          /* Page 2 css */
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, green, cyan);
+    /* background-color: rgb(8, 113, 125); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.Box {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+    background-color: #7077A1;
+    height: auto;
+    width: 90%;
+    border-radius: 10px;
+  }
+
+  .row1,
+  .row2 {
+    display: flex;
+    justify-content: space-around;
+    flex: 1; /* Distribute remaining space equally among rows */
+    gap: 15px;
+    margin: 5px;
+  }
+
+  
+
+  .frame {
+    flex: 1; /* Each frame takes equal space within the row */
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px dotted saddlebrown;
+    border-radius:10px;
+    width: 100px;
+   
+
+  }
+
+ img{
+    /* width: 80%; */
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    /* bottom: 3%; */
+    border-radius: 7px;
+    opacity: 0;
+ }
+
+
+ #jan{
+    position: relative;
+    /* bottom: 3px; */
+    /* max-width: 85%; */
+ }
+
+ img:hover{
+    opacity: 1;
+    transition: all 1s ease-in;
+ }
+
